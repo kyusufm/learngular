@@ -13,9 +13,7 @@
 		<h2>Kombnasi Nama</h2>
 		<p>Nama depan: <input type="text" ng-model="fname"></p>
 		<p>Nama belakang: <input type="text" ng-model="endname"></p>
-
 		<p> <span ng-bind="'Hallo '+fname+' '+endname"></span></p>
 	</div>
-
 </body>
 </html>
