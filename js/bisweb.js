@@ -46,7 +46,7 @@ app.controller('PageCtrl', function (/* $scope, $location, $http */) {
 
   // Activates the Carousel
   $('.carousel').carousel({
-    interval: 5000
+    interval: 5000;
   });
 
   // Activates Tooltips for Social Links

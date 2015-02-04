@@ -1,0 +1,40 @@
+/*dearchitect themes*/
+/*by Yusuf K. Muhammad*/
+/*get in touch with me: @kyusufm*/
+
+body{
+	overflow-x: hidden;
+    font-family: 'Oswald','Quattrocento', sans-serif, serif;
+}
+
+/*typography*/
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+/*navigation*/
+.navbar-default {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+/*header section*/
+header{
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+	background-attachment: scroll;
+	background-image: url(../img/unsplash-jeffsheldon.jpg);
+	background-position: center;
+	-webkit-filter: grayscale(70%);  
+}
+
+header .intro-text {
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
