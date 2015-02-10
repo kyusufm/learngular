@@ -27,4 +27,23 @@ app.controller('BlogCtrl', function(){
 app.controller('PageCtrl', function(){
 	console.log("Page Controller runs");
 	//You can put any other function here
+	var skill = new ProgressBar.Circle('#skill1', {
+	    color: '#FCB03C',
+	    text: {
+	        value: '3dsMax',
+	        className: 'progressbar-text',
+	        autoStyle: true
+	    }
+	});
+	var circle = new ProgressBar.Circle('#skill2', {
+	    color: '#FCB03C',
+	    text: {
+	        value: 'Text',
+	        className: 'progressbar-text',
+	        autoStyle: true
+	    }
+	});
+	circle.animate(0.8);
+	skill.animate(0.9);
 });
+
