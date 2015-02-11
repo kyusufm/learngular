@@ -1,9 +1,9 @@
-#skill1,#skill2 {
-    width: 100px;
-    height: 100px;
+#skill1, #skill2, #skill3, #skill4 {
+    width: 200px;
+    height: 200px;
 }
 
-#skill2 > svg {
+#skill2 > svg, #skill3 > svg {
     width: 100%;
     display: block;
 }
